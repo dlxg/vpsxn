@@ -11,13 +11,13 @@
 
 ## 普通模式：
 
-    wget -N --no-check-certificate https://raw.githubusercontent.com/wn789/vpsxn/master/test_wn789.sh && bash test_wn789.sh
+    wget -N --no-check-certificate https://raw.githubusercontent.com/dlxg/vpsxn/master/test_wn789.sh && bash test_wn789.sh
     
 普通模式就是之前的测试常规内容。测试输出结果请参考：普通模式结果样式参考
 
 ## 简单模式：
 
-    wget -N --no-check-certificate https://raw.githubusercontent.com/wn789/vpsxn/master/test_wn789.sh && bash test_wn789.sh s
+    wget -N --no-check-certificate https://raw.githubusercontent.com/dlxg/vpsxn/master/test_wn789.sh && bash test_wn789.sh s
     
 简单模式的测试包含：常规系统参数检测，带宽测试，IO测试和全国ping测试。测试输出结果请参考：简单模式结果样式参考
 
@@ -27,7 +27,7 @@
 
 ## 完全模式：
 
-    wget -N --no-check-certificate https://raw.githubusercontent.com/wn789/vpsxn/master/test_wn789.sh && bash test_wn789.sh a
+    wget -N --no-check-certificate https://raw.githubusercontent.com/dlxg/vpsxn/master/test_wn789.sh && bash test_wn789.sh a
     
 完全模式相比普通模式多了unixbench的测试，测试输出结果请参考：完全模式结果样式参考
 
